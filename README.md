@@ -1,50 +1,47 @@
-<img width="1696" height="2528" alt="Datavault" src="https://github.com/user-attachments/assets/079f5be9-5e21-4009-9b6a-f612a5ca76bf" />
+<img width="1280" height="720" alt="DataVault" src="https://github.com/user-attachments/assets/57d703ed-3458-495a-907f-6927072fb14b" />
 
-🛡️ Morphs DataVault 
+### **Morphs DataVault — 100% Offline Encrypted Safe**
 
-100% Offline Air-Gapped Personal Safe & Digital Asset Vault
+**Morphs DataVault** is a privacy-first, zero-knowledge offline digital safe designed to secure your most sensitive credentials, credentials, access keys, and recovery phrases with zero cloud exposure. Built from the ground up for strict privacy, Morphs DataVault does not connect to remote servers, log telemetry, or transmit your secrets across the internet. Your master key derives locally on your hardware, ensuring that your data belongs entirely to you.
 
-No Cloud. No Accounts. No Subscriptions. No Telemetry. Pure, client-side encryption running entirely on your local hardware.
+### **Key Highlights & Features**
 
-🔒 Overview
+* **Zero-Knowledge Offline Security:** All data is encrypted locally using industry-standard authenticated AES-256 encryption paired with 310,000 derivation rounds. If your device is offline, your vault remains completely operational and impenetrable.
+* **Structured Asset Categories:** Dedicated, organized fields for:
+  * **Account Logins & Passwords**
+  * **Home & Office Wi-Fi Credentials** (SSID + Network Keys)
+  * **Developer API Tokens & Secret Keys**
+  * **Software & Product License Keys**
+  * **Secure Recovery Notes & Crypto Seed Phrases**
+* **Dual Auto-Lock Sentry:** Active defense against shoulder surfing and unauthorized access. Your vault automatically locks and purges all active secrets from volatile memory after 20 seconds of inactivity or whenever the application is minimized or switched away.
+* **Instant Search & Masking:** Quickly filter across hundreds of assets with live query matching. Credentials remain masked behind a one-touch reveal barrier with direct-to-clipboard copying.
+* **Morphs Beam (Air-Gapped Sync & Backup):** Easily create authenticated, portable `.mvault` backup containers to transfer encrypted archives between devices without exposing raw plaintext.
+* **Adaptive Display Engine:** High-contrast color palettes and adjustable typography designed for clear legibility in any lighting condition.
 
-Morphs DataVault is a privacy-first, zero-cloud personal vault designed to keep your most critical digital secrets—passwords, home Wi-Fi keys, developer API tokens, license keys, and recovery seed phrases—completely out of reach from cloud breaches, trackers, and network sniffers.
+### **Edition & Gating Breakdown**
 
-Unlike modern "cloud-synced" password managers that store your encrypted data on third-party servers, Morphs DataVault operates 100% air-gapped. It contains zero network dependencies, zero telemetry, and never makes an external connection. Your master key derives locally, encrypts your safe in-memory, and immediately purges from RAM upon locking.
+#### **1. Core Free Edition**
+* **Vault Capacity:** Up to **2 saved credentials/records**.
+* **Security Suite:** Full authenticated AES-256 local encryption, clipboard protection, and the Dual Auto-Lock memory-scrubbing engine.
+* **Visual Themes:** Soft Slate (Light) and Dark Mode (Stealth).
+* **Typography:** Small and Medium font scaling.
+* **Backups:** Local in-memory viewing; file export disabled.
 
-Available as both a lightweight, install-free Android Web App / SPA and a high-performance Windows 10 / 11 Native Workstation, Morphs DataVault gives you full sovereignty over your private credentials.
+#### **2. Supporter Edition (Unlocked via Any Tip / Donation)**
+* **Vault Capacity:** Up to **3 saved credentials/records**.
+* **Visual Themes:** Unlocks the exclusive **Matrix Green** terminal palette.
+* **Badge:** Unlocks the permanent Supporter status badge.
+* **Backups:** File export disabled.
 
-⚡ Key Features & Cryptographic Architecture
+#### **3. Standard Edition ($3.99 Instant License)**
+* **Vault Capacity:** Up to **5 saved credentials/records**.
+* **Morphs Beam Export:** Fully enabled `.mvault` file export and encrypted raw envelope backup to local storage.
+* **Visual Themes:** Unlocks **Cyber Yellow** and **Cyberpunk Pink** themes.
+* **Typography:** Unlocks **Large** font scaling.
 
-  - Military-Grade Cryptographic Pipeline:
-      - Android / Mobile SPA: Authenticated AES-256-GCM (12-byte random IV, 128-bit integrity tag) + PBKDF2-HMAC-SHA256 (310,000 rounds).
-      - Windows Desktop: Authenticated AES-256-CBC with HMAC-SHA256 (Encrypt-then-MAC authentication) + PBKDF2 (310,000 iterations).
-  - Dual Auto-Lock Sentry:
-      - 20-Second Inactivity Timer: Automatically purges active memory and locks the vault if left unattended.
-      - Instant Minimize Protection: Locks instantly the moment your screen turns off, the window minimizes, or you switch apps.
-  - Air-Gapped Morphs Beam & .mvault Backups:
-      - Transfer and backup your encrypted safe between devices without connecting to Wi-Fi or Bluetooth.
-      - Export authenticated, self-contained .mvault container files or beam encrypted QR envelopes directly screen-to-screen.
-  - Organized Category Grid:
-      - 🔑 Account Logins & Passwords
-      - 📶 Home & Office Wi-Fi Credentials
-      - ⚡ Developer API Keys & Webhook Tokens
-      - 📜 Morphs Ecosystem 12-Character License Keys
-      - 📝 Secure Notes & Cold-Storage Seed Phrases
-  - 10 High-Contrast Themes (WCAG AAA):
-      - Includes Soft Slate (Light), Stealth Dark, Matrix Green, Cyber Yellow, Cyberpunk Pink, Dracula Purple, Blood Matrix, Nordic Frost, Solarized Ocean, and Sunset Amber.
-  - 4-Tier Dynamic Font Scaling Engine:
-      - Real-time scaling across Small, Medium, Large, and Extra Large typography with dedicated high-contrast accent contrast tokens (--accent-txt) for maximum digitizer legibility.
-
-🛡️ Why Air-Gapped Matters
-
-If a company stores your vault in the cloud, you are always one database breach, server misconfiguration, or subpoena away from exposure. With Morphs DataVault:
-
-1.  Your master password never leaves your device because there is no server to send it to.
-2.  If you don't unlock it, the data on your storage drive is mathematically indistinguishable from random digital noise.
-3.  You own your backup files (.mvault) locally, permanently, and indefinitely.
-
-💻 System Compatibility
-
-  - Android: Compatible with Android 8.0+ via any modern browser, WebView wrapper, or PWA standalone launcher.
-  - Windows Desktop: Native Windows 10 & Windows 11 executable (PowerShell 5.1+ / .NET WinForms runtime). Zero heavy dependencies or background services.
+#### **4. Pro Premium Edition ($6.49 Instant License)**
+* **Vault Capacity:** **Unlimited credentials, tokens, and records**.
+* **Morphs Beam Export:** Unrestricted `.mvault` backup and cross-device import/export.
+* **Visual Themes:** Complete access to all **10 high-contrast themes**, including **Dracula Purple**, **Nordic Frost**, **Blood Matrix**, **Solarized Ocean**, and **Sunset Amber**.
+* **Typography:** Unlocks **Extra Large** font scaling.
+* **Badge:** Permanent Pro Premium status.
