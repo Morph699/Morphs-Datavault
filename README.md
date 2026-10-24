@@ -1,6 +1,6 @@
 <img width="1696" height="2528" alt="Datavault" src="https://github.com/user-attachments/assets/079f5be9-5e21-4009-9b6a-f612a5ca76bf" />
 
-🛡️ Morphs DataVault v1.94
+🛡️ Morphs DataVault 
 
 100% Offline Air-Gapped Personal Safe & Digital Asset Vault
 
